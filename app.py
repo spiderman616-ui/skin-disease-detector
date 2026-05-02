@@ -129,4 +129,5 @@ gr.Interface(
     ],
     title="🩺 Skin Disease Detector",
     description="Upload a skin image to detect the disease, see the affected area highlighted, and get guidance and precautions.",
+#).launch(share=False, server_name="127.0.0.1", server_port=7860, inbrowser=True)
 ).launch(server_name="0.0.0.0", server_port=7860)
